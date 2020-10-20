@@ -1,0 +1,25 @@
+<Informations>
+	<Info>
+		<id>1</id>
+		<name>jhon doe </name>
+		<address>H#,R#3,banani,dhaka</address>
+		<department>sales</department>
+		<salary>$20000</salary>
+	</Info>
+
+	<Info>
+		<id>2</id>
+		<name>mark zuckerberg</name>
+		<address>flat# A/1, H#20, R#18, Mirpur, dhaka</address>
+		<department>accounts</department>
+		<salary>$120000</salary>
+	</Info>
+
+	<Info>
+		<id>3</id>
+		<name>ala voski</name>
+		<address>H#38,R#3,motijheel</address>
+		<department>human resource</department>
+		<salary>$30000</salary>
+	</Info>
+</Informations>
