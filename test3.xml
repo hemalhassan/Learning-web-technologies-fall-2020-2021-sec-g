@@ -2,7 +2,11 @@
 	<Info>
 		<id>1</id>
 		<name>jhon doe </name>
-		<address>H#,R#3,banani,dhaka</address>
+		<address></address>
+		<house_no>38</house_no>
+		<road>3</road>
+		<place>banani</place>
+		<city>dhaka</city>
 		<department>sales</department>
 		<salary>$20000</salary>
 	</Info>
@@ -10,7 +14,12 @@
 	<Info>
 		<id>2</id>
 		<name>mark zuckerberg</name>
-		<address>flat# A/1, H#20, R#18, Mirpur, dhaka</address>
+		<address></address>
+		<flat>A/1</flat>
+		<house_no>20</house_no>
+		<road>18</road>
+		<place>mirpur</place>
+		<city>dhaka</city>
 		<department>accounts</department>
 		<salary>$120000</salary>
 	</Info>
@@ -18,7 +27,10 @@
 	<Info>
 		<id>3</id>
 		<name>ala voski</name>
-		<address>H#38,R#3,motijheel</address>
+		<address></address>
+		<house_no>38</house_no>
+		<road>3</road>
+		<place>motijheel</place>
 		<department>human resource</department>
 		<salary>$30000</salary>
 	</Info>
