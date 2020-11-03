@@ -1,7 +1,7 @@
 
 <html>
 <head>
-	<title>View Profile</title>
+	<title>Edit Profile</title>
 </head>
 <body>
 	<table border="1" align="center" width="80%">
@@ -32,33 +32,33 @@
 				<table border="1" align="center" width="100%">
 					<form>
 					<fieldset>
-						<legend>PROFILE</legend>
+						<legend>EDIT PROFILE</legend>
 					<tr height="10px">
 						<td>
-						Name :Bob<hr/>
+						Name:<input type="text" name="text" value=""><hr/>
 					</td>
-						<td rowspan="3" align="center" height="100px" width="60%">
-						<input type="file" name="img">
-						<br>
-						<a href="change">change</a>
-					</td>
+						
 					</tr>
 					<tr>
-						<td>Email :bob@aiub.edu<hr/></td>
-
+						<td>
+							Email:<input type="email" name="mail" value=""><hr/></td>
 					</tr>
 					<tr height="50px" width="60px">
-						<td>Gender :Male<hr/></td>
-						
+						<td>
+					Gender:<input type="radio" name="gender">Male
+						<input type="radio" name="gender">Female
+					<input type="radio" name="gender">Other
+					<hr/>
+				</td>
 					</tr>
 					<tr height="50px" width="30px">
-						<td>Date of Birth : 19/09/1998<hr/></td>
-						
+						<td>
+							Date of Birth:<input type="date" name="dob"><hr/></td>
 					</tr>
 					<tr>
-						<td height="50px" width="60px">
-							<a href="Edit Profile">Edit Profile</a>
-						</td>	
+						<td>
+							<input type="button" name="submit" value="submit">
+						</td>
 					</tr>
 				</table>
 				</fieldset>
@@ -70,6 +70,5 @@
 
 		</tr>
 	</table>
-
 </body>
 </html>
