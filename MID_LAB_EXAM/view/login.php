@@ -1,6 +1,6 @@
 
 <center>
-<form method="post" >
+<form method="post" action="logincheck.php">
 	<table border="0" cellspacing="0" cellpadding="0">
 		<tr>
 			<td>
