@@ -1,4 +1,21 @@
+<?php
+	if(isset($_GET['error']))
+	{
+		if($_GET['error'] == "invalid_user")
+		{
+			echo "userid/password not valid";
+		}
+			if($_GET['error'] == "null_userid")
+		{
+			echo "userid field is empty";
+		}
+			if($_GET['error'] == "null_password")
+		{
+			echo "password field is empty";
+		}
 
+	}
+?>
 <center>
 <form method="post" action="logincheck.php">
 	<table border="0" cellspacing="0" cellpadding="0">
