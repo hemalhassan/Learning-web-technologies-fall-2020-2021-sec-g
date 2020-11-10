@@ -1,3 +1,8 @@
+<?php
+
+	include('header.php');
+?>
+
 <center>
 	<table border="1" cellpadding="5" cellspacing="0">
 		<tr><td colspan="4" align="CENTER">Users</td></tr>
